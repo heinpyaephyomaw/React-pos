@@ -1,0 +1,110 @@
+.cart-data-list {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+ .cart-data-list:first-child {
+    margin-top: 0;
+  }
+  .cart-data-list .product-image-parent {
+    margin-right: 10px;
+  }
+  .cart-data-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .cart-data-list div:last-child .cart-product-title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+ }
+ .cart-product-title-group .product-title {
+    width: 240px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+ .cart-product-title-group .product-variant-show {
+    color: rgb(151, 151, 151);
+    font-size: 12px;
+  }
+  .cart-product-title-group .product-title-group {
+    margin-right: 10px;
+  }
+  .cart-product-title-group .price-del-group {
+    display: flex;
+    align-items: center;
+  }
+  .price-del-group p {
+    font-size: 13px;
+    margin-right: 10px;
+    color: var(--main-color);
+    width: 80px;
+    word-wrap: break-word;
+  }
+  .price-del-group .del {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+  }
+  .price-del-group .del:hover {
+    background-color: tomato;
+    color: #FFF;
+  }
+  .price-del-group .del i {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .qty-incr-desc {
+    display: flex;
+    align-items: center;
+  }
+  .qty-incr-desc .qtyInput {
+    width: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+  }
+  .qty-incr-desc button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+  }
+  .qty-incr-desc button:first-child:hover {
+    background-color: tomato;
+    color: #FFF;
+  }
+  .qty-incr-desc button:last-child:hover{
+     background-color: green;
+     color: #FFF;
+  }
+
+
+
+  /* ----------------------------Responsive --------------------------------- */
+@media (min-width: 1025px) and (max-width: 1280px){
+    .cart-product-title-group .product-title {
+        width: auto;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .cart-product-title-group .product-title {
+        width: auto;
+    }
+}
+

@@ -1,0 +1,92 @@
+.product-lists-header {
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 10px;
+  }
+  .search-select-cate-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-show-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--main-color);
+  }
+  .search-categories-flex {
+    display: flex;
+    align-items: center;
+  }
+  .product-show-title::after {
+     content: "";
+     position: absolute;
+     width: 100px;
+     height: 3px;
+     background-color: var(--main-color);
+     left: -7px;
+     bottom: -18px;
+  }
+  .search-select-cate-group .products-cate {
+     width: 270px;
+     padding: 5px;
+     margin-right: 10px;
+     background-color: rgb(238, 238, 238);
+     border: 1px solid rgb(168, 168, 168);
+     /* border-radius: 5px; */
+     height: 34px;
+  }
+  .search-select-cate-group .products-cate optgroup {
+    font-style: normal;
+    color: var(--main-color);
+  }
+  .search-select-cate-group .products-cate optgroup option {
+    color: var(--text-color);
+  }
+  
+  .search-select-cate-group .searchInput {
+     outline: none;
+     padding: 5px 30px 5px 5px;
+     width: 270px;
+     /* border-radius: 5px; */
+     border: 1px solid rgb(168, 168, 168);
+     color: rgb(117, 117, 117);
+     background-color: rgb(238, 238, 238);
+     height: 34px;
+  }
+  .searchInput-group {
+    position: relative;
+  }
+  .searchInput-group .searchSubmit {
+    position: absolute;
+    font-size: 15px;
+    right: 7px;
+    top: 10px;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+  }
+
+
+
+
+  /* --------------------------Responsive --------------------------- */
+  @media (max-width: 1600px){
+    .search-select-cate-group .products-cate,.search-select-cate-group .searchInput {
+        width: 230px;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .search-select-cate-group .products-cate,.search-select-cate-group .searchInput {
+        width: 180px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .search-select-cate-group .products-cate,.search-select-cate-group .searchInput {
+        width: 150px;
+    }
+}

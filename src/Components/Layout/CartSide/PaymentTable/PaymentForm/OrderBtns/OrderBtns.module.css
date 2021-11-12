@@ -1,0 +1,27 @@
+.orderBtns-group {
+    display: flex;
+  }
+  .orderBtns-group button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .orderBtns-group button:first-child {
+    background-color: var(--main-color);
+    margin-right: 5px;
+  }
+  .orderBtns-group button:last-child {
+    background-color: rgb(2, 126, 2);
+    margin-left: 5px;
+  }
+  .orderBtns-group button:first-child:hover {
+      background-color: #c45800;
+  }
+  .orderBtns-group button:last-child:hover {
+    background-color: rgb(0, 77, 0);
+  }

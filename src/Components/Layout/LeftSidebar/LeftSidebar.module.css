@@ -1,0 +1,98 @@
+.leftsidebar {
+    width: 4%;
+    background-color: #FFF;
+    height: 100%;
+    position: absolute;
+    box-shadow: 3px 3px 0 rgb(233, 232, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100%;
+}
+.sidebar-btns li:first-child {
+  margin-bottom: 15px;
+}
+.sidebar-btns li:first-child a {
+   padding: 10px;
+}
+.sidebar-btns li a {
+  display: block;
+  padding: 22px 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.sidebar-btns li .sidebar-lists:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 1rem 0 0 1rem;
+  margin-left: 2px
+}
+.sidebar-btns li a i {
+  font-size: 17px;
+  color: var(--main-color);
+}
+.sidebar-btns li.active a {
+  background-color: var(--main-color) !important;
+  border-radius: 1rem 0 0 1rem;
+  margin-left: 2px;
+}
+.sidebar-btns li.active a i{
+   color: #FFF;
+}
+.myorder-side {
+  position: relative;
+}
+.myorder-side span {
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  position: absolute;
+  top: -12px;
+  right: 13px;
+  color: #FFF;
+  border-radius: 50%;
+  line-height: 18px;
+}
+
+.acc-logout li a {
+  display: block;
+  padding: 22px 0;
+  text-align: center;
+  transition: 0.5s;
+}
+.acc-logout li a i {
+  font-size: 23px;
+  color: var(--main-color);
+}
+.acc-logout li .sidebar-logout:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 1rem 0 0 1rem;
+  margin-left: 2px;
+}
+
+
+/* ----------------------------------------Responsive ------------------------------------- */
+
+@media (max-width: 1600px){
+  .container-flex .leftsidebar {
+      width: 5%;
+  }
+
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+
+  .container-flex .leftsidebar {
+      width: 7%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .leftsidebar {
+      width: 7%;
+  }
+
+}

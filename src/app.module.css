@@ -1,0 +1,9 @@
+.main-container {
+    width: 100%;
+}
+.main-container .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}

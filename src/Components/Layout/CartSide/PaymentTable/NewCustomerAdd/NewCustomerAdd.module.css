@@ -1,0 +1,37 @@
+.add-new-customer-parent {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-new-customer-parent button:first-child {
+  margin-right: 6px;
+  position: relative;
+}
+.add-new-customer-parent button:first-child i {
+  transform: rotate(126deg);
+}
+.add-new-customer-parent button:first-child span {
+  background-color: var(--main-color);
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 18px;
+}
+.add-new-customer-parent .add-new-customer,
+.add-new-customer-parent .customer-order-list {
+  padding: 7px;
+  cursor: pointer;
+  background-color: #aaa;
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 5px;
+}
+.add-new-customer-parent .add-new-customer i,
+.add-new-customer-parent .customer-order-list i {
+  color: #34495e;
+  font-size: 17px;
+}

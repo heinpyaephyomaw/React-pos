@@ -1,0 +1,23 @@
+.products-card-container {
+    height: 90%;
+    padding:0 10px 10px 10px;
+    border-radius: 5px;
+    overflow: hidden auto;
+    scrollbar-width: thin;
+  }
+  .products-card-container::-webkit-scrollbar {
+    width: 5px;
+  }
+  .products-card-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(158, 158, 158);
+    border-radius: 0;
+  }
+  
+  .products-card-container::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156);
+    border-radius: 5px;
+  }
+  .products-card-container .products-card-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }

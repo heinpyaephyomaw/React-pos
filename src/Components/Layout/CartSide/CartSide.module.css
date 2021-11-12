@@ -1,0 +1,27 @@
+.cartside {
+    height: 100%;
+    border-radius: 5px;
+    width: 25%;
+    background-color: rgb(231, 231, 231);
+    height: 100%;
+}
+
+
+/* ---------------------------------Responsive -------------------------------------- */
+@media (max-width: 1600px){
+    .cartside {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .cartside {
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .cartside {
+        width: 40%;
+    }
+}
