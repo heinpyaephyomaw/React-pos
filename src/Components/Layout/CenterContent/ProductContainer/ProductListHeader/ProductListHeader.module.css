@@ -22,7 +22,7 @@
   .product-show-title::after {
      content: "";
      position: absolute;
-     width: 100px;
+     width: 120px;
      height: 3px;
      background-color: var(--main-color);
      left: -7px;
